@@ -1,0 +1,78 @@
+.event-item {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-item__image {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+}
+
+.event-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.event-item__content {
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.event-item__content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #4a4a4a;
+}
+
+.event-item__content h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #888;
+}
+
+.event-item__content p {
+  margin: 0;
+  font-size: 1rem;
+  color: #888;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.event-item__actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.event-item__actions p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.btn {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #5101d1;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+}
+
+.btn:hover {
+  background-color: #6f2fff;
+}

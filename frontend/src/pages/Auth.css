@@ -1,0 +1,65 @@
+.auth-form {
+  width: 25rem;
+  max-width: 80%;
+  margin: 5rem auto;
+}
+
+.form-control label,
+.form-control input {
+  width: 100%;
+  display: block;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.auth-form p{
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+}
+
+.form-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-actions button {
+  font: inherit;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.form-actions button:hover,
+.form-actions button:active {
+  background: #01a7a7;
+  border-color: #01a7a7;
+}
+
+.form-actions button:last-child {
+  background: transparent;
+  border-color: transparent;
+  color: black;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.form-actions button:last-child:hover,
+.form-actions button:last-child:active {
+  background: #e6e6e6;
+  color: black;
+}

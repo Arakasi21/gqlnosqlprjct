@@ -1,0 +1,7 @@
+{
+    "env":{
+        "MONGO_USER":"arakasi",
+        "MONGO_PASSWORD": "12132136",
+        "MONGO_DB":"fandom-events"
+    }
+}
